@@ -26,3 +26,20 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } //Adds the dots determining where in slideshow you are and creates the slide show motion
+
+function countdown(){
+    var seconds = document.getElementById("seconds").value;
+
+    function tick() {
+        seconds = seconds - 1;
+        timer.innerHTML = seconds;
+        var time = setTimeout(tick, 1000);
+        if (seconds == 1) {
+            alert("Time's up!");
+            clearTimeout(time);
+                timer.innerHTML- "";
+        }
+
+    }
+    tick();
+} //This creates a countdown using the inner function and variable outer function
