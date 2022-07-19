@@ -54,11 +54,11 @@ document.write ("<br>" + X); //demonstrating how a let keyword cannot be accesse
 
 
 
-function try_return(a, b) {
-    return a * b;   
-  }  
-let C = try_return(4, 3); 
-document.getElementById("try_return").innerHTML = C; //demonstrating the return method
+document.getElementById("try_return").innerHTML = myFunction("Alex");
+
+function myFunction(name) {
+  return "Hello " + name;
+} //demonstrating the return method
 
 
  let machine = {
@@ -87,4 +87,4 @@ for (let i = 0; i < 10; i++) {
   if (i === 3) { continue; }
   text_2 += "The number is " + i + "<br>";
 }
-document.getElementById("continue").innerHTML = text_2;
+document.getElementById("continue").innerHTML = text_2; //continue statement
