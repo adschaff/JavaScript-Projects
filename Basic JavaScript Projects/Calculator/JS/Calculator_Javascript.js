@@ -51,7 +51,7 @@ function Handle_Operator(Next_Operator) {
         return;
     }
     if (First_Operand == null) {
-        Calculator.First_Operand - Value_of_Input;
+        Calculator.First_Operand = Value_of_Input;
     } else if (operator) {//Checks if an operator already exits
         const Value_Now = First_Operand || 0;
         //if operator exists, property lookup is performer for the operator
