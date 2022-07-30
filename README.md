@@ -7,7 +7,7 @@ These projects will all be linked within [JavaScript Projects](https://github.co
 
  ## Projects
  * [Pizza Menu](https://github.com/adschaff/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Pizza_Project) 
- * [Calcualor] (https://github.com/adschaff/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Calculator)
+ * [Calcualor](https://github.com/adschaff/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Calculator)
  * [Tic Tac Toe](https://github.com/adschaff/TicTacToe)
 
  ## Pizza Menu
